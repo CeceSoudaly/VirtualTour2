@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					A9119EAA1F43DB6C009FEB7E = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G3BLNBS74P;
 						ProvisioningStyle = Automatic;
 					};
 					A9119EBE1F43DB6C009FEB7E = {
@@ -412,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3BLNBS74P;
 				INFOPLIST_FILE = VT2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CeceMobile.VT2;
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3BLNBS74P;
 				INFOPLIST_FILE = VT2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CeceMobile.VT2;
