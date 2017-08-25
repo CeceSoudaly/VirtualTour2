@@ -14,6 +14,7 @@
 		A9119EB91F43DB6C009FEB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9119EB71F43DB6C009FEB7E /* LaunchScreen.storyboard */; };
 		A9119EC41F43DB6C009FEB7E /* VT2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9119EC31F43DB6C009FEB7E /* VT2Tests.swift */; };
 		A9119ECF1F43DB6C009FEB7E /* VT2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9119ECE1F43DB6C009FEB7E /* VT2UITests.swift */; };
+		A9ED67501F491B4600FF47DF /* MapPicModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9ED674E1F491B4600FF47DF /* MapPicModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A9119ECA1F43DB6C009FEB7E /* VT2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VT2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9119ECE1F43DB6C009FEB7E /* VT2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VT2UITests.swift; sourceTree = "<group>"; };
 		A9119ED01F43DB6C009FEB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9ED674F1F491B4600FF47DF /* MapPicModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapPicModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		A9119EA21F43DB6C009FEB7E = {
 			isa = PBXGroup;
 			children = (
+				A9ED674E1F491B4600FF47DF /* MapPicModel.xcdatamodeld */,
 				A9119EAD1F43DB6C009FEB7E /* VT2 */,
 				A9119EC21F43DB6C009FEB7E /* VT2Tests */,
 				A9119ECD1F43DB6C009FEB7E /* VT2UITests */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9ED67501F491B4600FF47DF /* MapPicModel.xcdatamodeld in Sources */,
 				A9119EB11F43DB6C009FEB7E /* ViewController.swift in Sources */,
 				A9119EAF1F43DB6C009FEB7E /* AppDelegate.swift in Sources */,
 			);
@@ -508,6 +512,7 @@
 				A9119ED51F43DB6C009FEB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9119ED61F43DB6C009FEB7E /* Build configuration list for PBXNativeTarget "VT2Tests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +521,7 @@
 				A9119ED81F43DB6C009FEB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9119ED91F43DB6C009FEB7E /* Build configuration list for PBXNativeTarget "VT2UITests" */ = {
 			isa = XCConfigurationList;
@@ -524,8 +530,22 @@
 				A9119EDB1F43DB6C009FEB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9ED674E1F491B4600FF47DF /* MapPicModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9ED674F1F491B4600FF47DF /* MapPicModel.xcdatamodel */,
+			);
+			currentVersion = A9ED674F1F491B4600FF47DF /* MapPicModel.xcdatamodel */;
+			path = MapPicModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A9119EA31F43DB6C009FEB7E /* Project object */;
 }

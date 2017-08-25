@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "715BF24087B83C30E06793C2AEDAC61D687BDA52",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4B46D7A5FD9EBF9A1F013DE2B75A3792A2D87217" : 9223372036854775807,
+    "715BF24087B83C30E06793C2AEDAC61D687BDA52" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0DEA528D-384D-401A-B808-F3FDD84A5166",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4B46D7A5FD9EBF9A1F013DE2B75A3792A2D87217" : "",
+    "715BF24087B83C30E06793C2AEDAC61D687BDA52" : "VT2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VT2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VT2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CeceSoudaly\/VirtualTour2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B46D7A5FD9EBF9A1F013DE2B75A3792A2D87217"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CeceSoudaly\/VirtualTour2",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "715BF24087B83C30E06793C2AEDAC61D687BDA52"
+    }
+  ]
+}
