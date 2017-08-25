@@ -4,6 +4,7 @@
         <attribute name="latitude" attributeType="String" syncable="YES"/>
         <attribute name="longtitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="name" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="photos" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Photos" inverseName="location" inverseEntity="Photos" syncable="YES"/>
     </entity>
     <entity name="Photos" representedClassName="Photos" syncable="YES" codeGenerationType="class">
         <attribute name="album" attributeType="Binary" syncable="YES"/>
@@ -11,9 +12,10 @@
         <attribute name="imagePath" attributeType="String" syncable="YES"/>
         <attribute name="name" attributeType="String" syncable="YES"/>
         <attribute name="state" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="photos" inverseEntity="Location" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Location" positionX="-54" positionY="0" width="128" height="90"/>
-        <element name="Photos" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Location" positionX="-54" positionY="0" width="128" height="105"/>
+        <element name="Photos" positionX="-63" positionY="-18" width="128" height="135"/>
     </elements>
 </model>
